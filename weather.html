@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>都是Weather你==</title>
+    <link rel="stylesheet" href="./css/weather.css">
+    <link rel="icon" href="weather img/DOG.jpg" type="image/x-icon" />
+    <link rel="preload" href="fonts/ChenYuluoyan-Thin.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <a href="" data-region="all">
+                <h1>全台天氣</h1>
+            </a>
+        </div>
+
+        <div class="btn-style">
+            <button class="btn ">
+                <h1>北部</h1>
+            </button>
+            <button class="btn">
+                <h1>中部</h1>
+            </button>
+            <button class="btn">
+                <h1>南部</h1>
+            </button>
+            <button class="btn">
+                <h1>東部</h1>
+            </button>
+            <button class="btn">
+                <h1>離島</h1>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!--  https://www.youtube.com/watch?v=weZFfrjF-k4 -->
+        <section>
+            <a href="earthquake.html">
+                <div class="clock animate__animated animate__fadeIn animate__slow">
+                    <div class="hour"></div>
+                    <div class="min"></div>
+                    <div class="sec"></div>
+                </div>
+            </a>
+        </section>
+
+        <div id="container"></div>
+    </main>
+
+    <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/clock.js"></script>
+</body>
+
+</html>
