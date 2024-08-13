@@ -31,7 +31,7 @@ body::before {
           clip-path: circle(20% at right 50%);
 }
 
-body::after {
+/* body::after {
   content: "";
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@ body::after {
   background: repeating-linear-gradient(#cd7975, #69e2a8);
   -webkit-clip-path: circle(10% at 10% 5%);
           clip-path: circle(10% at 10% 5%);
-}
+} */
 
 header {
   display: flex;
