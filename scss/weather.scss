@@ -30,6 +30,17 @@ body::before {
     clip-path: circle(20% at right 50%);
 }
 
+// body::after {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: repeating-linear-gradient(#cd7975, #69e2a8);
+//     clip-path: circle(10% at 10% 5%);
+// }
+
 header {
     display: flex;
     align-items: center;
